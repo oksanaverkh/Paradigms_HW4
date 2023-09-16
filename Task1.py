@@ -29,7 +29,7 @@ def main():
     for i in range(7):
         array_x.append(random.randint(-100, 100))
         array_y.append(random.randint(-100, 100))
-    print(array_x, array_y, sep="\n")
+    print(f'Array of X: {array_x} \nArray of Y: {array_y}')
     print(f'\nCorrelation coefficient = {correlationPirson(array_x, array_y)}')
 
 
